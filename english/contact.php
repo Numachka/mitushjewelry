@@ -10,7 +10,6 @@
     <link href="mitushjewelry.css" rel="stylesheet" type="text/css">
     <link href="contact.css" rel="stylesheet" type="text/css">
     <script src="mitushjewelry.js" type="text/javascript"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtCWGP6-1i4Tn0DIV-bts1k9B1i8nu03A&callback=initMap"></script>
      <script src="https://kit.fontawesome.com/f23d4f8598.js"></script>
     <link rel="icon" href="./Pictures/logo/logo 20x20.png">
     <title>Mitush Jewelry</title>
@@ -45,7 +44,6 @@
     <div id="contactPageDiv">
         <div id="contactPageLeft">
             <h1 id="contactPageDetailTitle">Come Visit My Studio!</h1>
-            <div id="contactMapDiv"></div>
             <div id="contactPageDetail">
                 <h1 class="contactPageDetailHead">  <a class="contactPageDetailAnchor" href="https://www.waze.com/ul?ll=32.32902618%2C35.00450134&navigate=yes&zoom=16"><i class="fab fa-waze contactPageDetailAnchor"></i> Habambuc 10, Yad Hanna</a></h1>
                 <h1 class="contactPageDetailHead">
