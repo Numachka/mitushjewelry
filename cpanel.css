@@ -1,0 +1,229 @@
+/*-----------------------CONTROL PANEL PAGE START--------------------*/
+
+#cpTitleDiv {
+    display: block;
+    width: 30%;
+    margin: 10vh auto 5vh;
+    text-align: center;
+}
+
+.cpTitleHead {
+    font-family: 'Assistant', sans-serif;
+    color: black;
+    font-size: 3em; 
+    border-bottom: solid 2px #AAF0D1;
+}
+
+#productUpload {
+    display: block;
+    width: 100%;
+
+}
+
+#productUploadFormDiv {
+    display: inline-block;
+    position: relative;
+    bottom: 5vh;
+    width: 30%;
+    height: 75vh;
+    margin: 5vh 0;
+    padding: 0 2vh;
+    border: solid 1px black;
+    float: left;
+    
+}
+
+.uploadHead {
+    font-family: 'Assistant', sans-serif;
+    color: black;
+    font-size: 2em;
+  	text-align: right;
+}
+
+.uploadPara {
+    font-family: 'Assistant', sans-serif;
+    color: black;
+    font-size: 1.5em;
+}
+
+.productUploadForm {
+    display: block;
+    
+}
+
+.uploadImage {
+    display: block;
+    width:99%;
+    margin:1vh;
+    font-family: 'Assistant', sans-serif;
+    color: black;
+    font-size: 2em;
+
+}
+
+.uploadType {
+    display: block;
+    margin:1vh;
+    padding: 1vh 0 0 0.6vh;
+    font-family: 'Assistant', sans-serif;
+    color: black;
+    font-size: 2em;
+    border: none;
+    border-bottom: solid 2px #AAF0D1;
+    
+}
+
+.uploadText {
+    display: block;
+    margin:1vh;
+    padding: 1vh 0 0 1vh ;
+    font-family: 'Assistant', sans-serif;
+    color: black;
+    font-size: 2em;
+  	text-align: right;
+    border: none;
+    border-bottom: solid 2px #AAF0D1;
+   
+}
+
+.uploadSubmit {
+    display: block;
+    margin:1vh;
+    padding: 1vh;
+    font-family: 'Assistant', sans-serif;
+    color: black;
+    font-size: 2em;
+}
+
+#productUploadManageDiv {
+    display: inline-block;
+    width: 65%;
+    height: 75vh;
+    padding:1vh;
+    overflow: scroll;
+}
+
+.outerCardDiv {
+	display: inline-block;
+	width:25%;
+}
+
+.innerLeftCardDiv {
+	float: left;
+	width: 35%;
+	padding: 3vh 0.3vh 0;
+}
+
+.cardImage {
+	object-fit: cover;
+	width:100%;
+	height:auto;
+}
+
+.innerRightCardDiv {
+	float: left;
+	width: 60%;
+	padding-left: 0.3vw;
+}
+
+.innerCardDetail {
+	display: block;
+	border-bottom:solid 1px #AAF0D1;
+	font-family: 'Assistant', sans-serif;
+    text-decoration: none;
+  	text-align: right;
+  	overflow: hidden;
+}
+
+.innerBottomCardDiv {
+	display: block;
+}
+
+.innerCardUpdateButton {
+	display: block;
+	float:left;
+	width: 30%;
+	padding:0.5vh;
+	margin: 0 2vh 1vh;
+	background-color: white;
+	border: solid 1px #AAF0D1;
+	border-radius: 15%;
+	font-family: 'Assistant', sans-serif;
+    text-decoration: none;
+}
+
+.overlayOuterDivClass {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 2;
+}
+
+.overlayInnerDiv {
+	width:60%;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+  	-ms-transform: translate(-50%,-50%);
+  	background-color:white;	
+}
+
+.overlayLeftDiv {
+	float:left;
+	width: 50%;
+}
+
+.overlayImage {
+	object-fit: cover;
+	width:100%;
+	height:auto;
+}
+
+#overlayRightDiv {
+	float:left;
+	width:50%;
+	padding:1vh;
+}
+
+.overlayRightText {
+	float: left;
+	width: 45%;
+	margin-left: 1vw;
+	margin-top: 4vh;
+	padding:1vh;
+	background-color: transparent;
+	border:none;
+	border-bottom:solid 1px #AAF0D1;
+	font-family: 'Assistant', sans-serif;
+    text-decoration: none;
+  	text-align: right;
+    font-size:1.2em;
+  	outline: none;
+}
+
+.overlayRightTextArea {
+ 	resize: none;
+}
+
+.overlayUpdateButton {
+	width:50%;
+	margin: 2vh auto;
+	padding:1vh;
+	background-color: #AAF0D1;
+	border: solid 1px #AAF0D1;
+	font-family: 'Assistant', sans-serif;
+    text-decoration: none;
+    font-size:1.2em;
+  	font-weight: bold;
+}
+
+
+
+/*---------------------CONTROL PANEL PAGE END------------------------*/

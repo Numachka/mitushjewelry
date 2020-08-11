@@ -1,0 +1,416 @@
+/*----------------------------INDEX LANDER VIDEO------------------*/
+
+#landerDiv {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+#landerVideo {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -2;
+}
+
+@media only screen and (max-width: 1024px) {
+    #landerDiv {
+        height: initial;
+    }
+
+    #landerVideo {
+        display: none;
+    }
+
+}
+
+
+/*--------------------INDEX HEADER--------------------------------------*/
+
+#header {
+    display: block;
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+#logoDiv {
+    display: inline;
+    
+}
+
+#logoImage {
+    width: 15%;
+    margin: 10vh;
+}
+
+#navbarButtons {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5vh 5vh;
+    padding: 5vh;
+}
+
+.navLink {
+    display: inline;
+    font-family: 'Josefin Slab', serif;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: white;
+    padding: 2vh 1vw;
+}
+
+.navLink:hover, .active {
+    border-bottom: solid 2px #AAF0D1;
+    transition: 0.22225s;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+    #header {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: initial;
+        z-index: 1;
+    }
+
+    #logoDiv {
+        display: block;
+        float: none;
+        
+    }
+
+    #logoImage {
+        display: block;
+        width: 30%;
+        margin: 5vh auto;
+    }
+    
+    #navbarButtons {
+        display: block;
+        width:100%;
+        position: initial;
+        bottom: auto;
+        right: auto;
+        margin: 5vh auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .navLink {
+        font-size: 1.8em;
+        color: black;
+        padding: 2vh 1vh;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .navLink {
+        font-size: 1.8em;
+        color: black;
+        padding: 2vh 1vh;
+    }
+
+    #navbarButtons {
+        display: block;
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    #navbarButtonsHider {
+        display: none;
+    }
+    #navDropdown {
+        display: block;
+    }
+}
+
+
+/*----------------------INDEX ABOUT START---------------------------------------*/
+
+#aboutDiv {
+    display: block;
+    width: 99%;
+    margin: 20vh auto 40vh;
+    text-align: center;
+}
+
+#aboutPortrait {
+    width: 30%;
+    position: relative;
+    top: 7vh;
+    left: 14vh;
+    z-index: -1;
+    border-radius: 10%;
+}
+
+#aboutTextDiv {
+    display: inline-block;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 10%;
+    position: relative;
+    left: 3vw;
+    width: 60%;
+    text-align: left;
+    padding: 2vh;
+}
+
+.aboutHead, .aboutText {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.8em;
+    color: black;
+}
+
+.aboutHead {
+    display: inline-block;
+    width: 70%;
+    font-size: 2em;
+    border-bottom: solid 2px #AAF0D1;
+}
+
+.aboutAnchor {
+    margin-left: 40vh;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.8em;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}   
+
+.aboutAnchor:hover {
+    border-bottom: solid 2px #AAF0D1;
+    transition: 0.3s;
+}
+
+/*---------------------ABOUT MEDIA QUERRY START---------------------*/
+/* small devices (phones,landscape phones, 400px and up) */
+@media only screen and (max-width: 415px) {
+    #aboutDiv {
+        margin: 5vh 0;
+        padding: 0;
+    }
+
+    #aboutPortrait {
+        display: block;
+        position: initial;
+        width: 350px;
+        margin: 10vh auto;
+
+    }
+
+    #aboutTextDiv {
+        display: block;
+        width: auto;
+    }
+
+    .aboutHead, .aboutText {
+        font-family: 'Josefin Slab', serif;
+        font-size: 1.5em;
+        color: black;
+    }
+    
+    .aboutHead {
+        display: inline-block;
+        width: 70%;
+        border-bottom: solid 2px #AAF0D1;
+    }
+
+    .aboutAnchor {
+        font-family: 'Josefin Slab', serif;
+        font-size: 1em;
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+    }  
+
+} 
+
+/* Large devices (portrait tablets, landscape large phones, 1024px and up) */
+@media only screen and (max-width: 1024px) {
+
+    #aboutDiv {
+        display: block;
+        width: 99%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #aboutTextDiv {
+        width:80%;
+      	margin: 3vh auto;
+        text-align: center;
+      	padding: 0;
+      	position: initial;
+    	left: auto;
+    }
+
+    #aboutPortrait {
+        position: initial;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .aboutAnchor {
+        margin-left: 0;
+        font-family: 'Josefin Slab', serif;
+        font-size: 1.8em;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }  
+
+}
+
+
+/*---------------------ABOUT MEDIA QUERRY END----------------------*/
+
+/*---------------------INDEX ABOUT END-------------------------*/
+
+
+#indexDecorations {
+    display: block;
+    width: 50%;
+    margin: 15vh auto 5vh;
+    text-align: center;
+}
+
+.indexDecoratingText {
+    display: block;
+    font-family: 'Josefin Slab', serif;
+    font-size: 2.5em;
+    color: black;
+    border-bottom:solid 2px #AAF0D1; 
+}
+
+/*------------------------INDEX PRODUCTS START------------------*/
+
+#productsDiv {
+    display: block;
+    width: 90%;
+    margin: 20vh auto;
+    text-align: center;
+}
+
+#productRingDiv {
+    background-image: url(./Pictures/white/Rings/rings4.jpg);  
+    background-position: 10% 5%;
+}
+
+#productEarringDiv {
+    background-image: url(./Pictures/white/Earrings/earrings1.jpg);
+    background-position: 30% 5%;
+}
+
+#productBraceletDiv {
+    background-image: url(./Pictures/white/Bracelets/bracelet1.jpg);
+    background-position: 30% 5%;
+}
+
+#productNecklaceDiv {
+    background-image: url(./Pictures/white/Necklaces/necklace1.jpg);
+    background-position: 10% 0;
+}
+
+.productDiv {
+    position: relative;
+    display: inline-block;
+    margin: 1vh;
+    width: 14%;
+    height: 70vh;
+    border: solid 1px #AAF0D1;
+    transition: 0.7s;
+}
+
+.productAnchor{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transition: 0.7s;
+    text-decoration: none;
+}
+
+.productDiv:hover {
+    width: 40%;
+    transition: 0.7s;
+    opacity: 0.5;
+}
+
+.productHead {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.6em;
+    color: black;
+}
+
+/*---------------------INDEX PRODUCT MEDIA QUERRY START--------------------*/
+/* Medium devices (portrait large phones,landscape phones, 768px and up) */
+
+@media only screen and (max-width: 400px) {
+    .productDiv {
+        width: 45%;
+        height: 20vh;
+        background-size: 300% 300%;
+    }
+
+    .productHead {
+        font-size: 1.5em;
+    }
+
+    .indexDecoratingText {
+        font-size: 1.5em;
+    }
+} 
+
+/* Large devices (portrait tablets, landscape large phones, 1024px and up) */
+@media only screen and (max-width: 1024px) {
+    #productsDiv {
+        margin: 1vh auto 10vh;
+    }
+    
+
+    #productRingDiv { 
+        background-position: 5% 8%;
+    }
+    
+    #productEarringDiv {
+        background-position: 5% 45%;
+    }
+    
+    #productBraceletDiv {
+        background-position: 20% 60%;
+    }
+    
+    #productNecklaceDiv {
+        background-position: 0 15%;
+    }
+    
+    .productDiv {
+        width: 45%;
+        height: 20vh;
+        border: none;
+        margin: 0.2vh;
+    }
+
+}
+
+/*----------------------INDEX PRODUCT MEDIA QUERRY END--------------------------------*/

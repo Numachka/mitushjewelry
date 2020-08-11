@@ -1,0 +1,246 @@
+/*---------------------------ABOUT PAGE START---------------------------*/
+
+/*----------------------------ABOUT PARAGRAPH START------------------------*/
+#aboutContainerDiv {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#aboutHiddenHead {
+    display:none;
+    width:80%;
+    margin: 4vh auto;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 2em;
+    color: black;
+    border-bottom: solid 2px #AAF0D1;
+}
+
+#aboutPortraitDiv {
+    display: block;
+    width: 30%;
+    height: 100vh;
+    margin: 2vh 0 5vh 3vw;;
+    float: left;
+    background-image: url("./Pictures/Self/portrait4-enchanced.jpeg");
+    background-size: cover;
+    background-position: 50% 0; 
+}
+
+#aboutParagraphDiv{
+    display: block;
+    width: 63%;
+    float: left;
+    margin: 2vh auto;
+    padding: 3vh;
+    border-right: solid 2px #AAF0D1;
+    text-align: center;
+    overflow: hidden;
+}
+
+.aboutParagraphHead {
+    display: inline-block;
+    width: 50%;
+    margin: 3vh auto;
+    font-family: 'Josefin Slab', serif;
+    font-size: 3em;
+    color: black;
+    border-bottom: solid 2px #AAF0D1;
+}
+
+.aboutParagraphText {
+    display: inline-block;
+    width: 80%;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: black;
+    line-height: 1.3em;   
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #aboutParagraphDiv {
+        width: 56%;
+    }
+    
+    .aboutParagraphHead {
+        width: 70%;
+        font-size: 2.5em;
+    }
+
+    .aboutParagraphText {
+        font-size: 1.5em;
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutParagraphText {
+        font-size: 1.5em;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    #aboutPortraitDiv {
+        display: block;
+        float: none;
+        width: 70%;
+        height: 50vh;
+        margin: 2vh auto;
+        z-index: -1;
+    }
+
+    #aboutParagraphDiv{
+        width: 80%;
+        float: none;
+        border-left: solid 2px #AAF0D1;
+        border-right: solid 2px #AAF0D1;
+        padding: none;
+       
+    }
+    
+    .aboutParagraphHead {
+        display: none;
+    }
+    
+    .aboutParagraphText {
+        display: block;
+        width: 100%;
+        font-family: 'Josefin Slab', serif;
+        font-size: 1em;
+        font-weight: 100;
+        color: black;
+        line-height: 1.2em; 
+        padding: none;  
+    }
+
+}
+
+
+
+/*----------------------------ABOUT PARAGRAPH END------------------------*/
+/*----------------------------ABOUT STUDIO START-------------------------*/
+#aboutStudioDiv {
+    display: block;
+    width: 100%;
+}
+
+.aboutStudio_InspirationHead {
+    display: block;
+    width: 20%;
+    margin-left: 5%;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 3em;
+    color: black;
+    border-bottom: solid 2px #AAF0D1;
+}
+
+.aboutStudio_InspirationText {
+    display: block;
+    width: 80%;
+    padding: 1vh;
+    margin: 0 auto;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+
+.aboutStudio_StudioHead {
+    display: block;
+    width: 20%;
+    margin-left: 5%;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 3em;
+    color: black;
+    border-bottom: solid 2px #AAF0D1;
+}
+
+.aboutStudio_StudioText {
+    display: block;
+    width: 80%;
+    padding: 1vh;
+    margin: 0 auto;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+
+#aboutStudioGalleryDiv {
+    display: block;
+    width: 80%;
+    margin: 10vh auto;
+    border-top: solid 2px #AAF0D1;
+    border-bottom: solid 2px #AAF0D1;
+}
+
+#aboutStudioGalleryHead {
+    display: block;
+    width: auto;
+    font-family: 'Josefin Slab', serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.aboutStudioGalleryAnchor{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.aboutStudioGalleryAnchor:hover {
+    text-decoration: underline #AAF0D1;
+}
+
+@media only screen and (max-width: 415px) {
+    .aboutStudio_InspirationHead {
+        width: 80%;
+        font-size: 1.5em;
+        text-align: left;
+    }
+    
+    .aboutStudio_InspirationText {
+        display: block;
+        width: 80%;
+        font-size: 1em;
+        line-height: 1.2em; 
+    }
+    
+    .aboutStudio_StudioHead {
+        width: 80%;
+        font-size: 1.5em;
+        text-align: left;
+    }
+    
+    .aboutStudio_StudioText {
+        display: block;
+        width: 80%;
+        font-size: 1em;
+        line-height: 1.3em; 
+    }
+
+    #aboutStudioGalleryDiv {
+        width: 99%;
+        border:solid 2px #AAF0D1;    
+    }
+
+    #aboutStudioGalleryHead {
+        font-size: 2em;
+    }
+
+}
+
+
+/*-----------------------------ABOUT STUDIO END--------------------------*/
+/*---------------------------ABOUT PAGE END------------------------------*/
